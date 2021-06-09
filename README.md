@@ -21,7 +21,6 @@ composer require ilbsfx/captcha
 | length  | 验证码位数   | 5
 | fontttf | 验证码字体，不设置是随机获取  | 空
 | bg  | 背景颜色    | [243, 251, 254]
-| reset   | 验证成功后是否重置   | true
 
 ## 使用
 ```php

@@ -9,7 +9,6 @@ composer require ilbsfx/captcha
 | 参数 | 描述 | 默认
 ---- | ---- | ----
 | codeSet | 验证码字符集合 | 略
-| expire  | 验证码过期时间（s）  | 1800
 | math    | 使用算术验证码 | false
 | useZh   | 使用中文验证码 | false
 | zhSet   | 中文验证码字符串    | 略
@@ -34,12 +33,10 @@ $config = [
     'length'   => 5,
     // 验证码字符集合
     'codeSet'  => '2345678abcdefhijkmnpqrstuvwxyzABCDEFGHJKLMNPQRTUVWXY',
-    // 验证码过期时间
-    'expire'   => 1800,
     // 是否使用中文验证码
     'useZh'    => false,
     // 是否使用算术验证码
-    'math'     => true,
+    'math'     => false,
     // 是否使用背景图
     'useImgBg' => false,
     //验证码字符大小
